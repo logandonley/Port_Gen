@@ -5,7 +5,7 @@ pipeline {
           yamlFile 'perl-pod.yaml'
         }
       }
-  triggers{ cron('H/15 * * * *') }
+  //triggers{ cron('H/15 * * * *') }
   options { 
     buildDiscarder(logRotator(numToKeepStr: '2'))
     skipDefaultCheckout true
