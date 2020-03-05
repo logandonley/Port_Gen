@@ -6,15 +6,15 @@ use warnings;
 use Email::MIME;
 my $message = Email::MIME->create(
   header_str => [
-    From    => 'you@example.com',
-    To      => 'friend@example.com',
-    Subject => 'Happy birthday!',
+    From    => 'johns2te@gmail.com',
+    To      => 'tjohnson@cloudbees.com',
+    Subject => 'Welcome To CloudBees!',
   ],
   attributes => {
     encoding => 'quoted-printable',
     charset  => 'ISO-8859-1',
   },
-  body_str => "Happy birthday to you!\n",
+  body_str => "CloudBees!\n",
 );
 
 # send the message
