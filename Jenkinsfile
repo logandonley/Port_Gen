@@ -14,7 +14,7 @@ pipeline {
       steps {
         checkout scm
         container('perl') {
-          sh 'perl simple.pl' 
+          sh 'perl simple.pl'
           sh 'perl --version'
         }
       }
