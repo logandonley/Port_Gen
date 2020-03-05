@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-my $output = `internet.bat`;
+my $output = `wine cmd internet.bat`;
 
 $status = ($output > 0 )? "Connected" : "Disconnected";
 
