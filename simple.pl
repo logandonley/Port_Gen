@@ -1,5 +1,5 @@
 #!/usr/bin/perl
 
-$output = `internet.bat`;
+my $output = `internet.bat`;
 
 printf("Internet Status:", $output);
