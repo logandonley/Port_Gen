@@ -1,8 +1,5 @@
-#!/bin/bash
-
-wget -q --tries=10 --timeout=20 --spider http://google.com
-if [[ $? -eq 0 ]]; then
-        echo "Online"
+if ping -q -c 1 -W 1 google.com >/dev/null; then
+  echo "The network is up"
 else
-        echo "Offline"
+  echo "The network is down"
 fi
