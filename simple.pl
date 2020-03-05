@@ -2,8 +2,13 @@
 
 my $output = `internet.sh --option`;
 
-$status = ($output = 0 )? "Connected" : "Disconnected";
+if($output = 0){
+print("Internet Status: Connected");
+} 
+else {
+	print("Internet Status: Disconnected); 
+}
 
-printf("Internet Status: ", $status)
+
 
 
