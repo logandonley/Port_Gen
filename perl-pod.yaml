@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: perl
-    image: perl:slim
+    image: perl:latest
     command:
     - cat
     tty: true
