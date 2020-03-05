@@ -6,7 +6,7 @@ if($output = 0){
 print("Internet Status: Connected");
 } 
 else {
-	print("Internet Status: Disconnected); 
+	print("Internet Status: Disconnected"); 
 }
 
 
