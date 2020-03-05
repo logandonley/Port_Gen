@@ -1,3 +1,3 @@
 #!/usr/bin/perl
 
-system 'internet.batch'
+system 'internet.bat'
