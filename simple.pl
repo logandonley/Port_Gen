@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
-my $output = `wine cmd internet.bat`;
+my $output = `internet.sh` --option;
 
-$status = ($output > 0 )? "Connected" : "Disconnected";
+#$status = ($output > 0 )? "Connected" : "Disconnected";
 
 printf("Internet Status: ", $status)
 
