@@ -2,4 +2,4 @@
 
 $output = `internet.bat`;
 
-printf($output);
+printf("Internet Status:", $output);
