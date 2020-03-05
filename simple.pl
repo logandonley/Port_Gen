@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-my $output = `internet.sh` --option;
+my $output = `internet.sh --option`;
 
 #$status = ($output > 0 )? "Connected" : "Disconnected";
 
