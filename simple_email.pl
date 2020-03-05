@@ -1,3 +1,5 @@
 #!/usr/bin/perl
 
-system 'internet.bat'
+$output = `internet.bat`;
+
+printf($output);
