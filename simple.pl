@@ -4,6 +4,6 @@ my $output = `internet.sh` --option;
 
 #$status = ($output > 0 )? "Connected" : "Disconnected";
 
-printf("Internet Status: ", $status)
+printf("Internet Status: ", $output)
 
 
