@@ -1,7 +1,10 @@
 #!/usr/bin/perl
 
-my $output = `./internet.sh`;
-print("Internet Status: "$output);
+my $connect = `./internet.sh`;
+print("Internet Status: "$connect);
+
+my $ip = `./my_ip.sh`;
+print($ip);
 
 
 
