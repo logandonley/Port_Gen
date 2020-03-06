@@ -3,3 +3,5 @@ if ping -q -c 1 -W 1 google.com >/dev/null; then
 else
   echo "The network is down"
 fi
+
+chmod +x ./my_ip.sh
