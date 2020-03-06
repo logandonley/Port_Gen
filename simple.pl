@@ -1,14 +1,9 @@
 #!/usr/bin/perl
 
 my $output = `./internet.sh`;
-print($output);
+print("Internet Status: "$output);
 
-#if($output = 0){
-#print("Internet Status: Connected");
-#} 
-#else {
-#	print("Internet Status: Disconnected"); 
-#}
+
 
 
 
